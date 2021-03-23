@@ -1,0 +1,354 @@
+body {
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.navbar {
+    padding-left: 0px;
+    margin-left: auto;
+    text-align: right;
+    margin: 0;
+}
+
+.content {
+    width: 1130px;
+    padding: 14px 80px;
+    margin: auto;
+    max-width: 100%;
+}
+
+.navbar  li {
+    position: relative;
+    display: inline-block;
+    padding: 7px 11px;
+}
+.navbar  li a {
+    color: black;
+}
+
+.navbar li .drop {
+    position: absolute;
+    text-align: center;
+    min-width: 5rem;
+    background-color: #fff;
+    padding: 32px;
+    border-radius: 0px;
+    box-shadow: 6px 6px 7px #5b65691c;
+    border-top: 0;
+    transition: all .9s;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    top: 32px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.navbar li:last-child {
+    padding-right: 0;
+}
+
+.drop a {
+    display: block;
+    transition: all .9s;
+    margin-bottom: 7px;
+}
+
+.drop a:hover {
+    margin-left: 7px;
+}
+
+.navbar li:hover .drop {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.logo {
+    position: absolute;
+    top: 9px;
+    height: 51px;
+}
+
+nav {
+    box-shadow: 7px 7px 7px #cccccc61;
+    position: relative;
+}
+
+header {
+    height: 350px;
+    background-image: url(https://freepngimg.com/thumb/eye/32173-5-beautiful-eyes.png);
+    background-position: 23% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    box-shadow: 7px 7px 7px #cccccc61;
+}
+
+.ca-text {
+    border: 2px solid #FFF;
+}
+
+.caption {
+    width: 50%;
+    background-color: rgb(221, 223, 223);
+    padding: 40px;
+    text-align: center;
+    margin-left: auto;
+}
+
+.list-inline li {
+    display: inline-block;
+    color: black;
+    padding: 7px 12px;
+
+}
+
+.list-inline li {
+    margin: 30px;
+}
+.pl-0 {
+    padding-left: 0;
+}
+
+.list-inline li:first-child {
+    background-color: black;
+    color: #fff;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-3 {
+    width: 33%;
+    padding: 0 15px;
+}
+.card img {
+    max-width: 100%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.card {
+    border-radius: 3px;
+    box-shadow: 4px 4px 10px #ccc;
+    text-align: center;
+}
+.card p {
+    padding-bottom: 15px;
+}
+
+.container{
+    background-color: #f7f7f7;
+    margin: 23px 23px
+}
+.container h1 {
+    text-align: center;
+}
+.blog{
+    display: flex;
+    text-align: center;
+}
+.blog img{
+    width: 100%;
+    padding: 0 5px;;
+}
+.container {
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+}
+.footer-content {
+    margin: 44px 11px 0px -180px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 10vh;
+}
+.container ,p {
+    margin: auto;
+}
+.p, h3, h1, li {
+    color: #6a666d;
+}
+#contacts {
+    justify-content: space-evenly;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+#contacts a {
+    text-decoration: none;
+    color: #6a666d;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+footer ul li {
+    list-style: none;
+    margin: 15px;
+}
+
+h5 {
+    color: gray;
+    padding: 15px;
+}
+
+.socials {
+    display: flex;
+}
+
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 73px;
+}
+
+.footer {
+    list-style: none;
+    padding: 10px;
+}
+
+.wrapper {
+    width: 1140px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.stickybtn {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+
+.stickybtn i {
+    color: darkkhaki;
+    font-size: 25px;
+}
+.uper-arrow {
+    width: 20px;
+    background-color: #6a666d;
+    margin-left: auto;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.uper-arrow a {
+    color: white;
+    text-decoration: none;
+}
+.fa, .fas {
+    font-weight: 900;
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+
+.fa, .fas {
+    font-weight: 900;
+}
+
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.uper-arrow a {
+    color: white;
+    text-decoration: none;
+}
+
+.fa, .fas {
+    font-weight: 900;
+}
+
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.uper-arrow a {
+    color: white;
+    text-decoration: none;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.uper-arrow {
+    width: 20px;
+    background-color: #6a666d;
+    margin-left: auto;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+.fa-arrow-up:before {
+    content: "\f062";
+}
+
+@media(max-width:800px){
+    .navbar{
+        display: none;
+    }
+    header{
+        background-image: none;
+    }
+    .caption{
+        width: 100%;
+    }
+    .col-3{
+        width: 50%;
+    }
+}
+
+@media(max-width:400px){
+    .navbar{
+        display: none;
+    }
+    header{
+        background-image: none;
+    }
+    .caption{
+        width: 100%;
+    }
+    .col-3{
+        width: 50%;
+    }
+}
+
+
